@@ -1,4 +1,5 @@
 export const allocations = [
+  // ── Buffalo Trace / Sazerac ─────────────────────────────────────────
   {
     id: 1,
     name: "Pappy Van Winkle 15 Year",
@@ -6,30 +7,30 @@ export const allocations = [
     proof: 107,
     msrp: 119.99,
     stores: [
-      { name: "Total Wine – Nashville", city: "Nashville", state: "TN", status: "available", quantity: 2, date: "2026-06-01" },
-      { name: "ABC Fine Wine – Orlando", city: "Orlando", state: "FL", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 1, date: "2026-06-01" },
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", status: "gone", quantity: 0, date: "2026-05-30" },
     ],
   },
   {
     id: 2,
-    name: "Buffalo Trace Antique Collection – William Larue Weller",
+    name: "Pappy Van Winkle 20 Year",
     distillery: "Buffalo Trace",
-    proof: 128.2,
-    msrp: 99.99,
+    proof: 90.4,
+    msrp: 169.99,
     stores: [
-      { name: "BevMo – Austin", city: "Austin", state: "TX", status: "available", quantity: 3, date: "2026-05-30" },
-      { name: "Spec's – Houston", city: "Houston", state: "TX", status: "gone", quantity: 0, date: "2026-05-28" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", status: "gone", quantity: 0, date: "2026-05-31" },
     ],
   },
   {
     id: 3,
-    name: "George T. Stagg",
+    name: "Pappy Van Winkle 23 Year",
     distillery: "Buffalo Trace",
-    proof: 134.9,
-    msrp: 99.99,
+    proof: 95.6,
+    msrp: 269.99,
     stores: [
-      { name: "Julio's Liquors – Westborough", city: "Westborough", state: "MA", status: "available", quantity: 1, date: "2026-06-02" },
-      { name: "Yankee Spirits – Sturbridge", city: "Sturbridge", state: "MA", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
     ],
   },
   {
@@ -39,55 +40,510 @@ export const allocations = [
     proof: 107,
     msrp: 69.99,
     stores: [
-      { name: "Liquor Barn – Louisville", city: "Louisville", state: "KY", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Buy Rite – Union", city: "Union", state: "NJ", status: "available", quantity: 1, date: "2026-06-01" },
+      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "gone", quantity: 0, date: "2026-05-29" },
     ],
   },
   {
     id: 5,
-    name: "Thomas H. Handy Sazerac Rye",
-    distillery: "Buffalo Trace",
-    proof: 130.8,
-    msrp: 99.99,
-    stores: [
-      { name: "Total Wine – Atlanta", city: "Atlanta", state: "GA", status: "available", quantity: 2, date: "2026-05-31" },
-      { name: "Green's Beverages – Atlanta", city: "Atlanta", state: "GA", status: "gone", quantity: 0, date: "2026-05-29" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Blanton's Original Single Barrel",
-    distillery: "Buffalo Trace",
-    proof: 93,
-    msrp: 64.99,
-    stores: [
-      { name: "Binnys – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 6, date: "2026-06-03" },
-      { name: "Sam's Wine – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-04" },
-      { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "gone", quantity: 0, date: "2026-06-01" },
-    ],
-  },
-  {
-    id: 7,
-    name: "Eagle Rare 17 Year",
-    distillery: "Buffalo Trace",
-    proof: 101,
-    msrp: 99.99,
-    stores: [
-      { name: "Spec's – Dallas", city: "Dallas", state: "TX", status: "available", quantity: 1, date: "2026-06-02" },
-    ],
-  },
-  {
-    id: 8,
     name: "Van Winkle Special Reserve 12 Year",
     distillery: "Buffalo Trace",
     proof: 90.4,
     msrp: 79.99,
     stores: [
-      { name: "ABC Fine Wine – Tampa", city: "Tampa", state: "FL", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Total Wine – Miami", city: "Miami", state: "FL", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", status: "gone", quantity: 0, date: "2026-06-01" },
+    ],
+  },
+  {
+    id: 6,
+    name: "George T. Stagg",
+    distillery: "Buffalo Trace",
+    proof: 134.9,
+    msrp: 99.99,
+    stores: [
+      { name: "Binny's – Elmwood Park", city: "Elmwood Park", state: "IL", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Bottle King – Rockaway", city: "Rockaway", state: "NJ", status: "gone", quantity: 0, date: "2026-05-30" },
+    ],
+  },
+  {
+    id: 7,
+    name: "William Larue Weller",
+    distillery: "Buffalo Trace",
+    proof: 128.2,
+    msrp: 99.99,
+    stores: [
+      { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Buy Rite – Kearny", city: "Kearny", state: "NJ", status: "available", quantity: 1, date: "2026-06-01" },
+    ],
+  },
+  {
+    id: 8,
+    name: "Thomas H. Handy Sazerac Rye",
+    distillery: "Buffalo Trace",
+    proof: 130.8,
+    msrp: 99.99,
+    stores: [
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "available", quantity: 1, date: "2026-06-04" },
+    ],
+  },
+  {
+    id: 9,
+    name: "Eagle Rare 17 Year",
+    distillery: "Buffalo Trace",
+    proof: 101,
+    msrp: 99.99,
+    stores: [
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "gone", quantity: 0, date: "2026-05-31" },
+      { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+    ],
+  },
+  {
+    id: 10,
+    name: "Sazerac 18 Year Rye",
+    distillery: "Buffalo Trace",
+    proof: 90,
+    msrp: 99.99,
+    stores: [
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Gary's Wine & Marketplace", city: "Bernardsville", state: "NJ", status: "available", quantity: 1, date: "2026-06-02" },
+      { name: "Woodman's Market – Green Bay", city: "Green Bay", state: "WI", status: "gone", quantity: 0, date: "2026-05-29" },
+    ],
+  },
+  {
+    id: 11,
+    name: "Blanton's Straight from the Barrel",
+    distillery: "Buffalo Trace",
+    proof: 128.6,
+    msrp: 99.99,
+    stores: [
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "gone", quantity: 0, date: "2026-06-01" },
+    ],
+  },
+  {
+    id: 12,
+    name: "E.H. Taylor Single Barrel",
+    distillery: "Buffalo Trace",
+    proof: 100,
+    msrp: 69.99,
+    stores: [
+      { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Buy Rite – Hoboken", city: "Hoboken", state: "NJ", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "available", quantity: 1, date: "2026-06-03" },
+    ],
+  },
+  {
+    id: 13,
+    name: "E.H. Taylor Barrel Proof",
+    distillery: "Buffalo Trace",
+    proof: 127.4,
+    msrp: 69.99,
+    stores: [
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", status: "gone", quantity: 0, date: "2026-06-02" },
+    ],
+  },
+  {
+    id: 14,
+    name: "Weller Full Proof",
+    distillery: "Buffalo Trace",
+    proof: 114,
+    msrp: 49.99,
+    stores: [
+      { name: "Binny's – Wilmette", city: "Wilmette", state: "IL", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Jenifer St. Market", city: "Madison", state: "WI", status: "gone", quantity: 0, date: "2026-06-01" },
+    ],
+  },
+  {
+    id: 15,
+    name: "Weller Single Barrel",
+    distillery: "Buffalo Trace",
+    proof: 97,
+    msrp: 49.99,
+    stores: [
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+    ],
+  },
+
+  // ── Heaven Hill ─────────────────────────────────────────────────────
+  {
+    id: 16,
+    name: "Parker's Heritage Collection Wheat Whiskey",
+    distillery: "Heaven Hill",
+    proof: 122,
+    msrp: 149.99,
+    stores: [
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", status: "gone", quantity: 0, date: "2026-05-31" },
+    ],
+  },
+  {
+    id: 17,
+    name: "Elijah Craig Barrel Proof (Batch A)",
+    distillery: "Heaven Hill",
+    proof: 120.2,
+    msrp: 59.99,
+    stores: [
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 6, date: "2026-06-04" },
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 3, date: "2026-06-02" },
+      { name: "Buy Rite – Union", city: "Union", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "available", quantity: 4, date: "2026-06-03" },
+    ],
+  },
+  {
+    id: 18,
+    name: "Larceny Barrel Proof (Batch B)",
+    distillery: "Heaven Hill",
+    proof: 119.4,
+    msrp: 44.99,
+    stores: [
+      { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "gone", quantity: 0, date: "2026-06-01" },
+    ],
+  },
+  {
+    id: 19,
+    name: "Old Fitzgerald Bottled in Bond 13 Year",
+    distillery: "Heaven Hill",
+    proof: 100,
+    msrp: 99.99,
+    stores: [
+      { name: "Binny's – Elmwood Park", city: "Elmwood Park", state: "IL", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", status: "available", quantity: 1, date: "2026-06-02" },
+    ],
+  },
+  {
+    id: 20,
+    name: "Heaven Hill Heritage Collection 17 Year",
+    distillery: "Heaven Hill",
+    proof: 100,
+    msrp: 299.99,
+    stores: [
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "gone", quantity: 0, date: "2026-06-02" },
+    ],
+  },
+
+  // ── Four Roses ───────────────────────────────────────────────────────
+  {
+    id: 21,
+    name: "Four Roses Limited Edition Small Batch",
+    distillery: "Four Roses",
+    proof: 111.4,
+    msrp: 149.99,
+    stores: [
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Buy Rite – Kearny", city: "Kearny", state: "NJ", status: "available", quantity: 1, date: "2026-06-02" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", status: "gone", quantity: 0, date: "2026-06-01" },
+    ],
+  },
+  {
+    id: 22,
+    name: "Four Roses Elliott's Select",
+    distillery: "Four Roses",
+    proof: 106.4,
+    msrp: 199.99,
+    stores: [
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", status: "available", quantity: 1, date: "2026-06-03" },
+    ],
+  },
+  {
+    id: 23,
+    name: "Four Roses Limited Edition Single Barrel",
+    distillery: "Four Roses",
+    proof: 113.4,
+    msrp: 109.99,
+    stores: [
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", status: "available", quantity: 3, date: "2026-06-02" },
+      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "available", quantity: 2, date: "2026-06-04" },
+    ],
+  },
+
+  // ── Wild Turkey ───────────────────────────────────────────────────────
+  {
+    id: 24,
+    name: "Master's Keep Cornerstone Rye",
+    distillery: "Wild Turkey",
+    proof: 109,
+    msrp: 199.99,
+    stores: [
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Gary's Wine & Marketplace", city: "Bernardsville", state: "NJ", status: "gone", quantity: 0, date: "2026-06-01" },
+    ],
+  },
+  {
+    id: 25,
+    name: "Russell's Reserve 13 Year",
+    distillery: "Wild Turkey",
+    proof: 114.8,
+    msrp: 249.99,
+    stores: [
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Buy Rite – Hoboken", city: "Hoboken", state: "NJ", status: "available", quantity: 1, date: "2026-06-03" },
+    ],
+  },
+  {
+    id: 26,
+    name: "Master's Keep Decades",
+    distillery: "Wild Turkey",
+    proof: 104,
+    msrp: 249.99,
+    stores: [
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+    ],
+  },
+
+  // ── Beam Suntory ─────────────────────────────────────────────────────
+  {
+    id: 27,
+    name: "Booker's Bourbon – The Apprentice Batch",
+    distillery: "Jim Beam",
+    proof: 128.7,
+    msrp: 99.99,
+    stores: [
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 8, date: "2026-06-04" },
+      { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 5, date: "2026-06-03" },
+      { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", status: "available", quantity: 6, date: "2026-06-02" },
+      { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "available", quantity: 3, date: "2026-06-04" },
+    ],
+  },
+  {
+    id: 28,
+    name: "Knob Creek 18 Year",
+    distillery: "Jim Beam",
+    proof: 100,
+    msrp: 149.99,
+    stores: [
+      { name: "Binny's – Wilmette", city: "Wilmette", state: "IL", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Bottle King – Rockaway", city: "Rockaway", state: "NJ", status: "available", quantity: 1, date: "2026-06-02" },
+      { name: "Woodman's Market – Green Bay", city: "Green Bay", state: "WI", status: "gone", quantity: 0, date: "2026-06-01" },
+    ],
+  },
+  {
+    id: 29,
+    name: "Little Book Chapter 7",
+    distillery: "Jim Beam",
+    proof: 122.3,
+    msrp: 119.99,
+    stores: [
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Buy Rite – Union", city: "Union", state: "NJ", status: "available", quantity: 3, date: "2026-06-04" },
+    ],
+  },
+
+  // ── Brown-Forman ────────────────────────────────────────────────────
+  {
+    id: 30,
+    name: "Old Forester Birthday Bourbon 2025",
+    distillery: "Brown-Forman",
+    proof: 97,
+    msrp: 99.99,
+    stores: [
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Jenifer St. Market", city: "Madison", state: "WI", status: "available", quantity: 2, date: "2026-06-04" },
+    ],
+  },
+  {
+    id: 31,
+    name: "Woodford Reserve Master's Collection Aged Cider Mash",
+    distillery: "Brown-Forman",
+    proof: 90.4,
+    msrp: 149.99,
+    stores: [
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", status: "gone", quantity: 0, date: "2026-06-01" },
+    ],
+  },
+
+  // ── Michter's ────────────────────────────────────────────────────────
+  {
+    id: 32,
+    name: "Michter's 10 Year Single Barrel Bourbon",
+    distillery: "Michter's",
+    proof: 94.4,
+    msrp: 149.99,
+    stores: [
+      { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Buy Rite – Hoboken", city: "Hoboken", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "available", quantity: 1, date: "2026-06-02" },
+    ],
+  },
+  {
+    id: 33,
+    name: "Michter's 20 Year Single Barrel Bourbon",
+    distillery: "Michter's",
+    proof: 91.4,
+    msrp: 699.99,
+    stores: [
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "gone", quantity: 0, date: "2026-06-02" },
+    ],
+  },
+  {
+    id: 34,
+    name: "Michter's 10 Year Single Barrel Rye",
+    distillery: "Michter's",
+    proof: 92.8,
+    msrp: 179.99,
+    stores: [
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", status: "available", quantity: 2, date: "2026-06-03" },
+    ],
+  },
+  {
+    id: 35,
+    name: "Michter's Celebration Sour Mash",
+    distillery: "Michter's",
+    proof: 88.4,
+    msrp: 999.99,
+    stores: [
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+    ],
+  },
+
+  // ── Willett ──────────────────────────────────────────────────────────
+  {
+    id: 36,
+    name: "Willett Family Estate 4 Year Rye",
+    distillery: "Willett",
+    proof: 110.2,
+    msrp: 79.99,
+    stores: [
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "available", quantity: 2, date: "2026-06-03" },
+    ],
+  },
+  {
+    id: 37,
+    name: "Willett Family Estate 8 Year Bourbon",
+    distillery: "Willett",
+    proof: 118.6,
+    msrp: 149.99,
+    stores: [
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Gary's Wine & Marketplace", city: "Bernardsville", state: "NJ", status: "available", quantity: 1, date: "2026-06-03" },
+    ],
+  },
+
+  // ── High West ────────────────────────────────────────────────────────
+  {
+    id: 38,
+    name: "Midwinter Night's Dram Act 11",
+    distillery: "High West",
+    proof: 98.6,
+    msrp: 149.99,
+    stores: [
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Buy Rite – Union", city: "Union", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", status: "available", quantity: 1, date: "2026-06-02" },
+    ],
+  },
+
+  // ── Maker's Mark ─────────────────────────────────────────────────────
+  {
+    id: 39,
+    name: "Maker's Mark FAE-02",
+    distillery: "Maker's Mark",
+    proof: 108,
+    msrp: 69.99,
+    stores: [
+      { name: "Binny's – Elmwood Park", city: "Elmwood Park", state: "IL", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "available", quantity: 2, date: "2026-06-03" },
+    ],
+  },
+
+  // ── New Riff ─────────────────────────────────────────────────────────
+  {
+    id: 40,
+    name: "New Riff Malted Rye Bottled in Bond",
+    distillery: "New Riff",
+    proof: 100,
+    msrp: 54.99,
+    stores: [
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 6, date: "2026-06-04" },
+      { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Bottle King – Rockaway", city: "Rockaway", state: "NJ", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Woodman's Market – Green Bay", city: "Green Bay", state: "WI", status: "available", quantity: 2, date: "2026-06-02" },
+    ],
+  },
+
+  // ── Kings County (NY) ────────────────────────────────────────────────
+  {
+    id: 41,
+    name: "Kings County Barrel Strength Bourbon",
+    distillery: "Kings County Distillery",
+    proof: 118,
+    msrp: 79.99,
+    stores: [
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 4, date: "2026-06-03" },
+    ],
+  },
+
+  // ── Bardstown Bourbon Co. ────────────────────────────────────────────
+  {
+    id: 42,
+    name: "Bardstown Bourbon Discovery Series #12",
+    distillery: "Bardstown Bourbon Co.",
+    proof: 114.5,
+    msrp: 99.99,
+    stores: [
+      { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "gone", quantity: 0, date: "2026-06-02" },
+    ],
+  },
+
+  // ── FEW Spirits (IL) ─────────────────────────────────────────────────
+  {
+    id: 43,
+    name: "FEW Immortal Rye",
+    distillery: "FEW Spirits",
+    proof: 93,
+    msrp: 64.99,
+    stores: [
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 8, date: "2026-06-04" },
+      { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 6, date: "2026-06-03" },
     ],
   },
 ];
 
-export const states = [...new Set(
-  allocations.flatMap(a => a.stores.map(s => s.state))
-)].sort();
+export const states = ["IL", "NJ", "NY", "WI"];
