@@ -7,9 +7,10 @@ export const allocations = [
     proof: 107,
     msrp: 119.99,
     stores: [
-      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 1, date: "2026-06-01" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-01" },
       { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-03" },
-      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", status: "gone", quantity: 0, date: "2026-05-30" },
+      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", url: "https://www.bottleking.com", status: "gone", quantity: 0, date: "2026-05-30" },
     ],
   },
   {
@@ -19,8 +20,8 @@ export const allocations = [
     proof: 90.4,
     msrp: 169.99,
     stores: [
-      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
-      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", status: "gone", quantity: 0, date: "2026-05-31" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", url: "https://www.astorwines.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", url: "https://www.garyswine.com", status: "gone", quantity: 0, date: "2026-05-31" },
     ],
   },
   {
@@ -30,7 +31,7 @@ export const allocations = [
     proof: 95.6,
     msrp: 269.99,
     stores: [
-      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", url: "https://www.sherry-lehmann.com", status: "available", quantity: 1, date: "2026-06-04" },
     ],
   },
   {
@@ -40,10 +41,11 @@ export const allocations = [
     proof: 107,
     msrp: 69.99,
     stores: [
-      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-02" },
       { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
       { name: "Buy Rite – Union", city: "Union", state: "NJ", status: "available", quantity: 1, date: "2026-06-01" },
-      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "gone", quantity: 0, date: "2026-05-29" },
+      { name: "Woodman's – Gurnee", city: "Gurnee", state: "IL", lakeCounty: true, url: "https://www.woodmans.com", status: "gone", quantity: 0, date: "2026-05-30" },
     ],
   },
   {
@@ -53,9 +55,10 @@ export const allocations = [
     proof: 90.4,
     msrp: 79.99,
     stores: [
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
       { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-04" },
       { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-03" },
-      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", url: "https://www.totalwine.com", status: "gone", quantity: 0, date: "2026-06-01" },
     ],
   },
   {
@@ -65,9 +68,10 @@ export const allocations = [
     proof: 134.9,
     msrp: 99.99,
     stores: [
-      { name: "Binny's – Elmwood Park", city: "Elmwood Park", state: "IL", status: "available", quantity: 2, date: "2026-06-02" },
-      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", status: "available", quantity: 1, date: "2026-06-04" },
-      { name: "Bottle King – Rockaway", city: "Rockaway", state: "NJ", status: "gone", quantity: 0, date: "2026-05-30" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Binny's – Elmwood Park", city: "Elmwood Park", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", url: "https://www.woodmans.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Bottle King – Rockaway", city: "Rockaway", state: "NJ", url: "https://www.bottleking.com", status: "gone", quantity: 0, date: "2026-05-30" },
     ],
   },
   {
@@ -77,6 +81,7 @@ export const allocations = [
     proof: 128.2,
     msrp: 99.99,
     stores: [
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
       { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 1, date: "2026-06-03" },
       { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-02" },
       { name: "Buy Rite – Kearny", city: "Kearny", state: "NJ", status: "available", quantity: 1, date: "2026-06-01" },
@@ -89,8 +94,9 @@ export const allocations = [
     proof: 130.8,
     msrp: 99.99,
     stores: [
-      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-03" },
-      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", url: "https://www.astorwines.com", status: "gone", quantity: 0, date: "2026-06-01" },
       { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "available", quantity: 1, date: "2026-06-04" },
     ],
   },
@@ -112,9 +118,10 @@ export const allocations = [
     proof: 90,
     msrp: 99.99,
     stores: [
-      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-04" },
-      { name: "Gary's Wine & Marketplace", city: "Bernardsville", state: "NJ", status: "available", quantity: 1, date: "2026-06-02" },
-      { name: "Woodman's Market – Green Bay", city: "Green Bay", state: "WI", status: "gone", quantity: 0, date: "2026-05-29" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Gary's Wine & Marketplace", city: "Bernardsville", state: "NJ", url: "https://www.garyswine.com", status: "available", quantity: 1, date: "2026-06-02" },
+      { name: "Woodman's Market – Green Bay", city: "Green Bay", state: "WI", url: "https://www.woodmans.com", status: "gone", quantity: 0, date: "2026-05-29" },
     ],
   },
   {
@@ -124,7 +131,9 @@ export const allocations = [
     proof: 128.6,
     msrp: 99.99,
     stores: [
-      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 4, date: "2026-06-03" },
       { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-04" },
       { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "gone", quantity: 0, date: "2026-06-01" },
     ],
@@ -136,9 +145,11 @@ export const allocations = [
     proof: 100,
     msrp: 69.99,
     stores: [
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 3, date: "2026-06-03" },
       { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-02" },
       { name: "Buy Rite – Hoboken", city: "Hoboken", state: "NJ", status: "available", quantity: 3, date: "2026-06-04" },
-      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Woodman's – Gurnee", city: "Gurnee", state: "IL", lakeCounty: true, url: "https://www.woodmans.com", status: "gone", quantity: 0, date: "2026-06-01" },
     ],
   },
   {
@@ -148,8 +159,9 @@ export const allocations = [
     proof: 127.4,
     msrp: 69.99,
     stores: [
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 1, date: "2026-06-04" },
       { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", status: "gone", quantity: 0, date: "2026-06-02" },
+      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", url: "https://www.bottleking.com", status: "gone", quantity: 0, date: "2026-06-02" },
     ],
   },
   {
@@ -159,9 +171,12 @@ export const allocations = [
     proof: 114,
     msrp: 49.99,
     stores: [
-      { name: "Binny's – Wilmette", city: "Wilmette", state: "IL", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Woodman's – Gurnee", city: "Gurnee", state: "IL", lakeCounty: true, url: "https://www.woodmans.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Binny's – Wilmette", city: "Wilmette", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 5, date: "2026-06-04" },
       { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 4, date: "2026-06-03" },
-      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", url: "https://www.totalwine.com", status: "available", quantity: 2, date: "2026-06-04" },
       { name: "Jenifer St. Market", city: "Madison", state: "WI", status: "gone", quantity: 0, date: "2026-06-01" },
     ],
   },
@@ -172,8 +187,10 @@ export const allocations = [
     proof: 97,
     msrp: 49.99,
     stores: [
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Woodman's – Gurnee", city: "Gurnee", state: "IL", lakeCounty: true, url: "https://www.woodmans.com", status: "available", quantity: 2, date: "2026-06-03" },
       { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-03" },
-      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", url: "https://www.astorwines.com", status: "available", quantity: 2, date: "2026-06-04" },
     ],
   },
 
@@ -185,9 +202,10 @@ export const allocations = [
     proof: 122,
     msrp: 149.99,
     stores: [
-      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-02" },
       { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
-      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", status: "gone", quantity: 0, date: "2026-05-31" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", url: "https://www.woodmans.com", status: "gone", quantity: 0, date: "2026-05-31" },
     ],
   },
   {
@@ -197,11 +215,14 @@ export const allocations = [
     proof: 120.2,
     msrp: 59.99,
     stores: [
-      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 6, date: "2026-06-04" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Woodman's – Gurnee", city: "Gurnee", state: "IL", lakeCounty: true, url: "https://www.woodmans.com", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 6, date: "2026-06-04" },
       { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-03" },
       { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 3, date: "2026-06-02" },
       { name: "Buy Rite – Union", city: "Union", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", url: "https://www.woodmans.com", status: "available", quantity: 4, date: "2026-06-03" },
     ],
   },
   {
@@ -211,9 +232,11 @@ export const allocations = [
     proof: 119.4,
     msrp: 44.99,
     stores: [
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Woodman's – Gurnee", city: "Gurnee", state: "IL", lakeCounty: true, url: "https://www.woodmans.com", status: "available", quantity: 3, date: "2026-06-03" },
       { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 5, date: "2026-06-04" },
       { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
-      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", url: "https://www.totalwine.com", status: "available", quantity: 4, date: "2026-06-04" },
       { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "gone", quantity: 0, date: "2026-06-01" },
     ],
   },
@@ -224,8 +247,9 @@ export const allocations = [
     proof: 100,
     msrp: 99.99,
     stores: [
-      { name: "Binny's – Elmwood Park", city: "Elmwood Park", state: "IL", status: "available", quantity: 2, date: "2026-06-03" },
-      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", status: "available", quantity: 1, date: "2026-06-02" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Binny's – Elmwood Park", city: "Elmwood Park", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", url: "https://www.garyswine.com", status: "available", quantity: 1, date: "2026-06-02" },
     ],
   },
   {
@@ -235,8 +259,8 @@ export const allocations = [
     proof: 100,
     msrp: 299.99,
     stores: [
-      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
-      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "gone", quantity: 0, date: "2026-06-02" },
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", url: "https://www.sherry-lehmann.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", url: "https://www.astorwines.com", status: "gone", quantity: 0, date: "2026-06-02" },
     ],
   },
 
@@ -248,11 +272,13 @@ export const allocations = [
     proof: 111.4,
     msrp: 149.99,
     stores: [
-      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 3, date: "2026-06-04" },
       { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-03" },
       { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
       { name: "Buy Rite – Kearny", city: "Kearny", state: "NJ", status: "available", quantity: 1, date: "2026-06-02" },
-      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", url: "https://www.woodmans.com", status: "gone", quantity: 0, date: "2026-06-01" },
     ],
   },
   {
@@ -262,8 +288,9 @@ export const allocations = [
     proof: 106.4,
     msrp: 199.99,
     stores: [
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
       { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", url: "https://www.bottleking.com", status: "available", quantity: 1, date: "2026-06-03" },
     ],
   },
   {
@@ -273,10 +300,12 @@ export const allocations = [
     proof: 113.4,
     msrp: 109.99,
     stores: [
-      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 4, date: "2026-06-03" },
       { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", status: "available", quantity: 3, date: "2026-06-02" },
-      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", url: "https://www.totalwine.com", status: "available", quantity: 3, date: "2026-06-02" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", url: "https://www.woodmans.com", status: "available", quantity: 2, date: "2026-06-04" },
     ],
   },
 
@@ -288,9 +317,10 @@ export const allocations = [
     proof: 109,
     msrp: 199.99,
     stores: [
-      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-03" },
-      { name: "Gary's Wine & Marketplace", city: "Bernardsville", state: "NJ", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", url: "https://www.astorwines.com", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Gary's Wine & Marketplace", city: "Bernardsville", state: "NJ", url: "https://www.garyswine.com", status: "gone", quantity: 0, date: "2026-06-01" },
     ],
   },
   {
@@ -300,7 +330,7 @@ export const allocations = [
     proof: 114.8,
     msrp: 249.99,
     stores: [
-      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", url: "https://www.sherry-lehmann.com", status: "available", quantity: 2, date: "2026-06-04" },
       { name: "Buy Rite – Hoboken", city: "Hoboken", state: "NJ", status: "available", quantity: 1, date: "2026-06-03" },
     ],
   },
@@ -324,10 +354,13 @@ export const allocations = [
     proof: 128.7,
     msrp: 99.99,
     stores: [
-      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 8, date: "2026-06-04" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 5, date: "2026-06-03" },
+      { name: "Woodman's – Gurnee", city: "Gurnee", state: "IL", lakeCounty: true, url: "https://www.woodmans.com", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 8, date: "2026-06-04" },
       { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 5, date: "2026-06-03" },
       { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 4, date: "2026-06-04" },
-      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", status: "available", quantity: 6, date: "2026-06-02" },
+      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", url: "https://www.totalwine.com", status: "available", quantity: 6, date: "2026-06-02" },
       { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "available", quantity: 3, date: "2026-06-04" },
     ],
   },
@@ -338,10 +371,12 @@ export const allocations = [
     proof: 100,
     msrp: 149.99,
     stores: [
-      { name: "Binny's – Wilmette", city: "Wilmette", state: "IL", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Binny's – Wilmette", city: "Wilmette", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 3, date: "2026-06-03" },
       { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Bottle King – Rockaway", city: "Rockaway", state: "NJ", status: "available", quantity: 1, date: "2026-06-02" },
-      { name: "Woodman's Market – Green Bay", city: "Green Bay", state: "WI", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Bottle King – Rockaway", city: "Rockaway", state: "NJ", url: "https://www.bottleking.com", status: "available", quantity: 1, date: "2026-06-02" },
+      { name: "Woodman's Market – Green Bay", city: "Green Bay", state: "WI", url: "https://www.woodmans.com", status: "gone", quantity: 0, date: "2026-06-01" },
     ],
   },
   {
@@ -351,8 +386,9 @@ export const allocations = [
     proof: 122.3,
     msrp: 119.99,
     stores: [
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 3, date: "2026-06-04" },
       { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-04" },
-      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", url: "https://www.astorwines.com", status: "available", quantity: 2, date: "2026-06-03" },
       { name: "Buy Rite – Union", city: "Union", state: "NJ", status: "available", quantity: 3, date: "2026-06-04" },
     ],
   },
@@ -365,9 +401,11 @@ export const allocations = [
     proof: 97,
     msrp: 99.99,
     stores: [
-      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 5, date: "2026-06-04" },
       { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
-      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", url: "https://www.garyswine.com", status: "available", quantity: 2, date: "2026-06-02" },
       { name: "Jenifer St. Market", city: "Madison", state: "WI", status: "available", quantity: 2, date: "2026-06-04" },
     ],
   },
@@ -378,9 +416,10 @@ export const allocations = [
     proof: 90.4,
     msrp: 149.99,
     stores: [
-      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-03" },
-      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", url: "https://www.sherry-lehmann.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", url: "https://www.totalwine.com", status: "gone", quantity: 0, date: "2026-06-01" },
     ],
   },
 
@@ -392,8 +431,9 @@ export const allocations = [
     proof: 94.4,
     msrp: 149.99,
     stores: [
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
       { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", url: "https://www.astorwines.com", status: "available", quantity: 3, date: "2026-06-03" },
       { name: "Buy Rite – Hoboken", city: "Hoboken", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
       { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "available", quantity: 1, date: "2026-06-02" },
     ],
@@ -405,7 +445,7 @@ export const allocations = [
     proof: 91.4,
     msrp: 699.99,
     stores: [
-      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", url: "https://www.sherry-lehmann.com", status: "available", quantity: 1, date: "2026-06-04" },
       { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "gone", quantity: 0, date: "2026-06-02" },
     ],
   },
@@ -416,9 +456,10 @@ export const allocations = [
     proof: 92.8,
     msrp: 179.99,
     stores: [
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 1, date: "2026-06-04" },
       { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 2, date: "2026-06-03" },
       { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
-      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Bottle King – Livingston", city: "Livingston", state: "NJ", url: "https://www.bottleking.com", status: "available", quantity: 2, date: "2026-06-03" },
     ],
   },
   {
@@ -428,7 +469,7 @@ export const allocations = [
     proof: 88.4,
     msrp: 999.99,
     stores: [
-      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", status: "available", quantity: 1, date: "2026-06-04" },
+      { name: "Sherry-Lehmann Wine & Spirits", city: "New York", state: "NY", url: "https://www.sherry-lehmann.com", status: "available", quantity: 1, date: "2026-06-04" },
     ],
   },
 
@@ -440,10 +481,12 @@ export const allocations = [
     proof: 110.2,
     msrp: 79.99,
     stores: [
-      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 4, date: "2026-06-04" },
       { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
-      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", status: "available", quantity: 5, date: "2026-06-04" },
-      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "available", quantity: 2, date: "2026-06-03" },
+      { name: "Total Wine – Marlton", city: "Marlton", state: "NJ", url: "https://www.totalwine.com", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", url: "https://www.woodmans.com", status: "available", quantity: 2, date: "2026-06-03" },
     ],
   },
   {
@@ -453,9 +496,9 @@ export const allocations = [
     proof: 118.6,
     msrp: 149.99,
     stores: [
-      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "gone", quantity: 0, date: "2026-06-01" },
-      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Gary's Wine & Marketplace", city: "Bernardsville", state: "NJ", status: "available", quantity: 1, date: "2026-06-03" },
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "gone", quantity: 0, date: "2026-06-01" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", url: "https://www.astorwines.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Gary's Wine & Marketplace", city: "Bernardsville", state: "NJ", url: "https://www.garyswine.com", status: "available", quantity: 1, date: "2026-06-03" },
     ],
   },
 
@@ -467,10 +510,12 @@ export const allocations = [
     proof: 98.6,
     msrp: 149.99,
     stores: [
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 2, date: "2026-06-03" },
       { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-04" },
       { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-03" },
       { name: "Buy Rite – Union", city: "Union", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", status: "available", quantity: 1, date: "2026-06-02" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", url: "https://www.woodmans.com", status: "available", quantity: 1, date: "2026-06-02" },
     ],
   },
 
@@ -482,9 +527,12 @@ export const allocations = [
     proof: 108,
     msrp: 69.99,
     stores: [
-      { name: "Binny's – Elmwood Park", city: "Elmwood Park", state: "IL", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 3, date: "2026-06-03" },
+      { name: "Woodman's – Gurnee", city: "Gurnee", state: "IL", lakeCounty: true, url: "https://www.woodmans.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Binny's – Elmwood Park", city: "Elmwood Park", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 5, date: "2026-06-04" },
       { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 3, date: "2026-06-03" },
-      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", status: "available", quantity: 4, date: "2026-06-04" },
+      { name: "Total Wine – Westfield", city: "Westfield", state: "NJ", url: "https://www.totalwine.com", status: "available", quantity: 4, date: "2026-06-04" },
       { name: "Bauer's Discount Beverage", city: "Milwaukee", state: "WI", status: "available", quantity: 2, date: "2026-06-03" },
     ],
   },
@@ -497,10 +545,13 @@ export const allocations = [
     proof: 100,
     msrp: 54.99,
     stores: [
-      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", status: "available", quantity: 6, date: "2026-06-04" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Woodman's – Gurnee", city: "Gurnee", state: "IL", lakeCounty: true, url: "https://www.woodmans.com", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Binny's – Lincoln Park", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 6, date: "2026-06-04" },
       { name: "Empire Wine", city: "Albany", state: "NY", status: "available", quantity: 4, date: "2026-06-03" },
-      { name: "Bottle King – Rockaway", city: "Rockaway", state: "NJ", status: "available", quantity: 3, date: "2026-06-04" },
-      { name: "Woodman's Market – Green Bay", city: "Green Bay", state: "WI", status: "available", quantity: 2, date: "2026-06-02" },
+      { name: "Bottle King – Rockaway", city: "Rockaway", state: "NJ", url: "https://www.bottleking.com", status: "available", quantity: 3, date: "2026-06-04" },
+      { name: "Woodman's Market – Green Bay", city: "Green Bay", state: "WI", url: "https://www.woodmans.com", status: "available", quantity: 2, date: "2026-06-02" },
     ],
   },
 
@@ -512,7 +563,7 @@ export const allocations = [
     proof: 118,
     msrp: 79.99,
     stores: [
-      { name: "Astor Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 5, date: "2026-06-04" },
+      { name: "Astor Wines & Spirits", city: "New York", state: "NY", url: "https://www.astorwines.com", status: "available", quantity: 5, date: "2026-06-04" },
       { name: "Warehouse Wines & Spirits", city: "New York", state: "NY", status: "available", quantity: 4, date: "2026-06-03" },
     ],
   },
@@ -525,10 +576,12 @@ export const allocations = [
     proof: 114.5,
     msrp: 99.99,
     stores: [
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 2, date: "2026-06-03" },
       { name: "Sam's Wine & Spirits", city: "Chicago", state: "IL", status: "available", quantity: 3, date: "2026-06-04" },
       { name: "Park Avenue Liquor Shop", city: "New York", state: "NY", status: "available", quantity: 2, date: "2026-06-03" },
-      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", status: "available", quantity: 2, date: "2026-06-04" },
-      { name: "Discount Liquor – Milwaukee", city: "Milwaukee", state: "WI", status: "gone", quantity: 0, date: "2026-06-02" },
+      { name: "Gary's Wine & Marketplace", city: "Madison", state: "NJ", url: "https://www.garyswine.com", status: "available", quantity: 2, date: "2026-06-04" },
+      { name: "Woodman's Market – Madison", city: "Madison", state: "WI", url: "https://www.woodmans.com", status: "gone", quantity: 0, date: "2026-06-02" },
     ],
   },
 
@@ -540,7 +593,9 @@ export const allocations = [
     proof: 93,
     msrp: 64.99,
     stores: [
-      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", status: "available", quantity: 8, date: "2026-06-04" },
+      { name: "Binny's – Waukegan", city: "Waukegan", state: "IL", lakeCounty: true, url: "https://www.binnys.com", status: "available", quantity: 6, date: "2026-06-04" },
+      { name: "Total Wine – Vernon Hills", city: "Vernon Hills", state: "IL", lakeCounty: true, url: "https://www.totalwine.com", status: "available", quantity: 4, date: "2026-06-03" },
+      { name: "Binny's – Gold Coast", city: "Chicago", state: "IL", url: "https://www.binnys.com", status: "available", quantity: 8, date: "2026-06-04" },
       { name: "Warehouse Liquors – Chicago", city: "Chicago", state: "IL", status: "available", quantity: 6, date: "2026-06-03" },
     ],
   },

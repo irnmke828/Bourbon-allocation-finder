@@ -214,14 +214,42 @@
 .store-row:last-child {
   border-bottom: none;
 }
+.store-row-lc {
+  background: #f6f9f6;
+}
 .store-info {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
+.store-name-line {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
 .store-name {
   font-size: 0.9rem;
   font-weight: 500;
+}
+.lc-badge {
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: #1b5e20;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: 99px;
+}
+.lc-dot {
+  font-size: 0.68rem;
+  font-weight: 700;
+  background: #1b5e20;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: 99px;
+  letter-spacing: 0.04em;
 }
 .store-location {
   font-size: 0.76rem;
@@ -231,6 +259,8 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .quantity {
   font-size: 0.8rem;
@@ -240,6 +270,20 @@
 .date {
   font-size: 0.76rem;
   color: #aaa;
+}
+.buy-btn {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+  background: #8b4513;
+  padding: 3px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.buy-btn:hover {
+  background: #6b3410;
 }
 
 /* ── Badges ── */

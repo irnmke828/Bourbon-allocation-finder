@@ -12,9 +12,12 @@ function StatusBadge({ status }) {
 
 function StoreRow({ store }) {
   return (
-    <div className="store-row">
+    <div className={`store-row${store.lakeCounty ? ' store-row-lc' : ''}`}>
       <div className="store-info">
-        <span className="store-name">{store.name}</span>
+        <div className="store-name-line">
+          <span className="store-name">{store.name}</span>
+          {store.lakeCounty && <span className="lc-badge">Lake County</span>}
+        </div>
         <span className="store-location">{store.city}, {store.state}</span>
       </div>
       <div className="store-meta">
@@ -23,6 +26,9 @@ function StoreRow({ store }) {
           <span className="quantity">Qty: {store.quantity}</span>
         )}
         <span className="date">{new Date(store.date).toLocaleDateString()}</span>
+        {store.url && store.status === 'available' && (
+          <a href={store.url} target="_blank" rel="noopener noreferrer" className="buy-btn">Buy →</a>
+        )}
       </div>
     </div>
   )
@@ -31,6 +37,15 @@ function StoreRow({ store }) {
 function BourbonCard({ bourbon }) {
   const [expanded, setExpanded] = useState(false)
   const availableCount = bourbon.stores.filter(s => s.status === 'available').length
+  const lcAvailable = bourbon.stores.filter(s => s.lakeCounty && s.status === 'available').length
+
+  const sortedStores = [...bourbon.stores].sort((a, b) => {
+    if (a.lakeCounty && !b.lakeCounty) return -1
+    if (!a.lakeCounty && b.lakeCounty) return 1
+    if (a.status === 'available' && b.status !== 'available') return -1
+    if (a.status !== 'available' && b.status === 'available') return 1
+    return 0
+  })
 
   return (
     <div className={`card ${availableCount > 0 ? 'card-available' : 'card-gone'}`}>
@@ -42,6 +57,7 @@ function BourbonCard({ bourbon }) {
         <div className="card-meta">
           <span className="proof">{bourbon.proof}°</span>
           <span className="msrp">${bourbon.msrp}</span>
+          {lcAvailable > 0 && <span className="lc-dot" title="Available in Lake County IL">LC</span>}
           <span className="store-count">
             {availableCount}/{bourbon.stores.length} stores
           </span>
@@ -50,7 +66,7 @@ function BourbonCard({ bourbon }) {
       </div>
       {expanded && (
         <div className="card-body">
-          {bourbon.stores.map((store, i) => (
+          {sortedStores.map((store, i) => (
             <StoreRow key={i} store={store} />
           ))}
         </div>
